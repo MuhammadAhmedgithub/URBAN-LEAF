@@ -1,0 +1,38 @@
+/* Main Content Starts here */
+.card-body p {
+    font-size: 15px;
+}
+
+.card-img-top {
+
+    height: 320px;
+    object-fit: cover;
+}
+.hidden {
+    display: none;
+}
+
+.card {
+    margin-bottom: 15px;
+    border: 2px black solid;
+    background-color: white;
+    color: #ffff;
+}
+.card:hover{
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    color: black;
+}
+
+#categorySearch {
+    margin-bottom: 15px;
+}
+
+:any-link {
+    text-decoration: none;
+}
+
+/* Main Content Ends here */

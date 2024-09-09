@@ -1,0 +1,79 @@
+/* Introduction starts here */
+.music-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: black;
+  }
+  
+ 
+  
+  .music-description {
+    flex: 1;
+    margin-top: 1rem;
+    color: black;
+  }
+
+
+  
+  header {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+  }
+  
+  header h1 {
+    margin: 0;}
+/* Introduction ends here */
+
+  /* Main starts here */
+
+      .card {
+        width: 250px; /* reduced width */
+        margin: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.2s ease-in-out;
+      }
+      
+      .card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+      }
+      
+      .card-img-top {
+        width: 250px; /* reduced width */
+        height: 150px; /* reduced height */
+        object-fit: cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+      }
+      
+      .card-body {
+        padding: 15px; /* reduced padding */
+      }
+      
+      .card-title {
+        font-weight: bold;
+        margin-bottom: 10px;
+      }
+      
+      .price {
+        font-size: 16px; /* reduced font size */
+        font-weight: bold;
+        color: #337ab7;
+      }
+      
+      .add-to-cart {
+        background-color: #337ab7;
+        color: #fff;
+        border: none;
+        padding: 8px 15px; /* reduced padding */
+        font-size: 14px; /* reduced font size */
+        cursor: pointer;
+      }
+      
+      .add-to-cart:hover {
+        background-color: #23527c;
+      }

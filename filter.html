@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sort and Filter Page</title>
+    <link rel="stylesheet" href="filter.css">
+
+    <link rel="shortcut icon" href="img/core-img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+     
+
+    <div  class="container">
+        <div class="heading">
+        <h1>Product List</h1>
+    </div>
+        <div class="controls">
+            <select id="sort" onchange="sortItems()">
+                <option value="default">Sort By</option>
+                <option value="price">Name</option>
+                <option value="name">price</option>
+            </select>
+            <input type="text" id="filter" onkeyup="filterItems()" placeholder="Search by name...">
+        </div>
+        <div id="product-list" class="product-list">
+            <img src="background.jfif" alt="">
+        </div>
+    </div>
+    
+    <script src="filter.js"></script>
+</body>
+</html>
